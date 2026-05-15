@@ -90,7 +90,7 @@
 &kp TAB    &kp Q           &kp W  &kp E     &kp R  &kp T                                   &kp C_VOL_UP                &kp Y        &kp U  &kp I      &kp O    &kp P              &kp BSPC
 &kp LCTRL  &hrmt LSHIFT A  &kp S  &kp D     &kp F  &kp G                     &kp C_BRI_DN  &kp C_MUTE    &kp C_BRI_UP  &kp H        &kp J  &kp K      &kp L    &hrmt RSHIFT SEMI  &kp SQT
 &td0       &kp Z           &kp X  &kp C     &kp V  &kp B        &trans                     &kp C_VOL_DN                &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH           &kp ESC
-                                  &kp LGUI  &mo 1  &lt 3 ENTER                                                         &lt 3 SPACE  &mo 2  &kp RALT
+                                  &kp LGUI  &mo 1  &lt 3 ENTER                                                         &kp SPACE    &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -124,7 +124,7 @@
             display-name = "Fn";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&trans          &trans      &mkp RCLK  &mkp MCLK    &mkp LCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &trans                        &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
