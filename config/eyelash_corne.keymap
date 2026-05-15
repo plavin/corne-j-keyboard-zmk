@@ -88,7 +88,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q           &kp W  &kp E     &kp R  &kp T                                   &kp C_VOL_UP                &kp Y        &kp U  &kp I      &kp O    &kp P              &kp BSPC
-&kp LCTRL  &hrmt LSHIFT A  &kp S  &kp D     &kp F  &kp G                     &kp C_BRI_DN  &kp C_MUTE    &kp C_BRI_UP  &kp H        &kp J  &kp K      &kp L    &hrmt LSHIFT SEMI  &kp SQT
+&kp LCTRL  &hrmt LSHIFT A  &kp S  &kp D     &kp F  &kp G                     &kp C_BRI_DN  &kp C_MUTE    &kp C_BRI_UP  &kp H        &kp J  &kp K      &kp L    &hrmt RSHIFT SEMI  &kp SQT
 &td0       &kp Z           &kp X  &kp C     &kp V  &kp B        &trans                     &kp C_VOL_DN                &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH           &kp ESC
                                   &kp LGUI  &mo 1  &lt 3 ENTER                                                         &lt 3 SPACE  &mo 2  &kp RALT
             >;
@@ -99,10 +99,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                         &trans          &kp N6           &kp N7           &kp N8           &kp N9           &kp N0      &kp BSPC
-&trans  &trans           &trans          &cd           &trans        &trans                &C_PREV  &C_PP   &C_NEXT &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp RSHIFT  &kp PG_UP
-&trans  &trans           &trans          &trans        &trans        &trans     &trans              &trans          &trans           &trans           &trans           &trans           &kp END     &kp PG_DN
-                                         &trans        &trans        &trans                                         &kp INS          &kp DEL          &trans
+&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                            &trans                &kp N6           &kp N7           &kp N8           &kp N9           &kp N0      &kp BSPC
+&trans  &trans           &trans          &cd           &trans        &trans                &kp C_PREV  &kp C_PP   &kp C_NEXT &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp RSHIFT  &kp PG_UP
+&trans  &trans           &trans          &trans        &trans        &trans     &trans                 &trans                &trans           &trans           &trans           &trans           &kp END     &kp PG_DN
+                                         &trans        &trans        &trans                                                  &kp INS          &kp DEL          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
