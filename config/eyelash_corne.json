@@ -41,7 +41,6 @@
         { "row": 2, "col":  3, "x":     3, "y":    2 },
         { "row": 2, "col":  4, "x":     4, "y": 2.12 },
         { "row": 2, "col":  5, "x":     5, "y": 2.24 },
-        { "row": 2, "col":  6, "x":  6.25, "y": 2.24, "label":        "4\n2" },
         { "row": 2, "col":  9, "x":  9.25, "y": 2.24, "label":  "5-way down" },
         { "row": 2, "col": 11, "x":  11.5, "y": 2.24 },
         { "row": 2, "col": 12, "x":  12.5, "y": 2.12 },
@@ -58,15 +57,5 @@
         { "row": 3, "col": 13, "x":    13, "y": 3.12 }
       ]
     }
-  },
-  "sensors": [
-    {
-      "ref": "left_encoder",
-      "name": "encoder_left",
-      "identifier": "encoder_left",
-      "compatible": "alps,ec11",
-      "label": "LEFT_ENCODER",
-      "enabled": true
-    }
-  ]
+  }
 }
